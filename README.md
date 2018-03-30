@@ -2,7 +2,7 @@
 本实验借鉴了
 <p>https://www.csdn.net/article/2015-11-11/2826192</p>
 学习了卷积神经网络在自然语言处理中的应用。
-</p>github地址https://github.com/dennybritz/cnn-text-classification-tf/blob/master/text_cnn.py,text_cnn</p>
+</p>github地址https://github.com/dennybritz/cnn-text-classification-tf/blob/master/text_cnn.py</p>
 使用上述github地址cnn-text代码进行修改完成实验目的。
 本实验使用了word2vec开源库进行特征提取。
 
