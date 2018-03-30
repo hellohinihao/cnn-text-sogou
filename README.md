@@ -1,5 +1,5 @@
 # 实验参考
-本实验借鉴了https://www.csdn.net/article/2015-11-11/2826192一文学习了卷积神经网络在自然语言处理中的应用，并使用了https://github.com/dennybritz/cnn-text-classification-tf/blob/master/text_cnn.py下text_cnn的代码进行修改完成实验目的。
+本实验借鉴了https://www.csdn.net/article/2015-11-11/2826192一文,学习了卷积神经网络在自然语言处理中的应用，并使用github地址https://github.com/dennybritz/cnn-text-classification-tf/blob/master/text_cnn.py,text_cnn的代码进行修改完成实验目的。
 本实验使用了word2vec开源库进行特征提取
 
 # 实验背景
@@ -101,7 +101,6 @@ import sys
 import gensim
 reload(sys)
 sys.setdefaultencoding('utf-8')
-print 123
 stopwords = {}.fromkeys([ line.strip() for line in open("/data/deeplearning/cnn/data/stopwords.txt") ])
 #for i in stopwords:
 #	if i == "的":
