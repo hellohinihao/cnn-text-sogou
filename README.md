@@ -1,6 +1,10 @@
 # 实验参考
-本实验借鉴了https://www.csdn.net/article/2015-11-11/2826192一文,学习了卷积神经网络在自然语言处理中的应用，并使用github地址https://github.com/dennybritz/cnn-text-classification-tf/blob/master/text_cnn.py,text_cnn的代码进行修改完成实验目的。
-本实验使用了word2vec开源库进行特征提取
+本实验借鉴了
+<p>https://www.csdn.net/article/2015-11-11/2826192</p>
+学习了卷积神经网络在自然语言处理中的应用。
+</p>github地址https://github.com/dennybritz/cnn-text-classification-tf/blob/master/text_cnn.py,text_cnn</p>
+使用上述github地址cnn-text代码进行修改完成实验目的。
+本实验使用了word2vec开源库进行特征提取。
 
 # 实验背景
  <p>文本挖掘是一门交叉性学科,涉及数据挖掘、机器学习、模式识别、人工智能、统计学、计算机语言学、计算机网络技术、信息学等多个领域。文本挖掘就是从大量的文档中发现隐含知识和模式的一种方法和工具,它从数据挖掘发展而来,但与传统的数据挖掘又有许多不同。文本挖掘的对象是海量、异构、分布的文档(web);文档内容是人类所使用的自然语言,缺乏计算机可理解的语义。传统数据挖掘所处理的数据是结构化的,而文档(web)都是半结构或无结构的。所以,文本挖掘面临的首要问题是如何在计算机中合理地表示文本,使之既要包含足够的信息以反映文本的特征,又不至于过于复杂使学习算法无法处理。</p>
